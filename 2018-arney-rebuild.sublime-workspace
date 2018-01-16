@@ -1,0 +1,290 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"auth",
+				"authHandler"
+			],
+			[
+				"aut",
+				"authData"
+			],
+			[
+				"trans",
+				"transitionLeaveTimeout"
+			],
+			[
+				"remove",
+				"removeButton"
+			],
+			[
+				"update",
+				"updatedFish"
+			],
+			[
+				"localStor",
+				"localStorageRef"
+			],
+			[
+				"tra",
+				"transition-duration"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"git: stat",
+				"Git: Status"
+			],
+			[
+				"mater",
+				"Material Theme: Activate theme"
+			]
+		],
+		"width": 402.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git status",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/Fish.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/Order.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/Inventory.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/css/style.styl",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/AddFishForm.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/Header.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/css/_animations.styl",
+		"/Users/Alex/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Users/Alex/Library/Application Support/Sublime Text 3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/Users/Alex/Sites/wesbos-react/.eslintrc",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/StorePicker.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/base.js",
+		"/Users/Alex/Sites/wesbos-react/stepped-solutions/19/src/components/App.js",
+		"/Users/Alex/Sites/wesbos-react/stepped-solutions/19/src/components/Order.js",
+		"/Users/Alex/Sites/wesbos-react/stepped-solutions/16/src/components/App.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/node_modules/firebase/app.js",
+		"/Users/Alex/Library/Application Support/Sublime Text 3/Packages/User/SimpleClone.sublime-settings",
+		"/Users/Alex/Library/Application Support/Sublime Text 3/Packages/SimpleClone/SimpleClone.sublime-settings",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/App.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/index.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/components/NotFound.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/Inventory.js",
+		"/Users/Alex/Sites/wesbos-react/catch-of-the-day/src/Header.js",
+		"/Users/Alex/Sites/Arney/arney-website/rebuild/index.html",
+		"/Users/Alex/Sites/Arney/arney-website/rebuild/scss/style.scss",
+		"/Users/Alex/Sites/.gitignore",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/dev/jobs.html",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/dev/js/main.js",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/dev/index.html",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/dev/css/style.css",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/gulpfile.js",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-compose.yml",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/dev/js/jobs.min.js",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Arney/arney-website/prod/index.html",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/mkhugh-website/Dockerfile",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-compose.txt",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/theocean-website/Dockerfile",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-php/Dockerfile",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/theocean-website/docker-entrypoint.sh",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Beerox/beerox-website/README.txt",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/Beerox/beerox-website/Dockerfile",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-compose-v3.yml",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-nginx/conf.d/arney.conf",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-nginx/conf.d/beerox.conf",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-nginx/conf.d/thefilter.conf",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-nginx/conf.d/ocean.conf",
+		"/Users/Alex/Library/Mobile Documents/com~apple~CloudDocs/sites/docker-nginx/conf.d/finn.conf",
+		"/Users/Alex/Library/Mobile Documents/com~apple~TextEdit/Documents/WP-CONFIGS.rtf"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "2018-arney-rebuild.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inve",
+				"catch-of-the-day/src/components/Inventory.js"
+			],
+			[
+				"inven",
+				"catch-of-the-day/src/components/Inventory.js"
+			],
+			[
+				"order",
+				"catch-of-the-day/src/components/Order.js"
+			],
+			[
+				"fish",
+				"catch-of-the-day/src/components/Fish.js"
+			],
+			[
+				"addfi",
+				"catch-of-the-day/src/components/AddFishForm.js"
+			],
+			[
+				"app",
+				"catch-of-the-day/src/components/App.js"
+			],
+			[
+				"invento",
+				"catch-of-the-day/src/components/Inventory.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
