@@ -1,0 +1,24 @@
+{
+  "name": "2018-arney-rebuild",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^0.4.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarrney/2018-arney-rebuild.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yarrney/2018-arney-rebuild/issues"
+  },
+  "homepage": "https://github.com/Yarrney/2018-arney-rebuild#readme"
+}
