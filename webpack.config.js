@@ -1,5 +1,11 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const extractStyles = new ExtractTextPlugin('main.css');
+const path = require('path');
+// const extractFonts = new ExtractTextPlugin('fonts.css');
+
 module.exports = {
 	entry: './src/js/app.js',
+
 	output: {
 		path: __dirname + '/dist',
 		filename: 'bundle.js'
@@ -9,40 +15,31 @@ module.exports = {
     	rules: [
 
 			{ 	// Install CSS Loaders
-				test: /\.(css)$/, // css|scss
+				test: /\.(css)$/, 
 				exclude: /node_modules/,
-				use: [
-                    {
-                        loader: 'style-loader',
-                    },
-                    {
-                        loader: 'css-loader',
-                        options: {
-                            importLoaders: 1,
-                        }
-                    },
-                    {
-                        loader: 'sass-loader',
-                    },
-                    {
-                        loader: 'postcss-loader'
-                    }
-                ]
+				use: extractStyles.extract({
+		          use: [
+		            {
+		              loader: 'css-loader',
+		              options: { importLoaders: 1 },
+		            },
+		            'postcss-loader',
+		          ],
+		        }),
 			},
 
 			{ 	// Install URL Loader
 				test: /\.(svg|gif|png|eot|woff|ttf)$/,
-				loaders: [
-					'url-loader'
-				]
+				use: ['url-loader']
 			},
 
 			{ 	// Babel es2015 
 				test: /\.js$/,
-				loader: 'babel-loader?presets[]=es2015'
+				use: ['babel-loader?presets[]=es2015']
 			}
-
-    ]
-  }
-
+		]
+  	},
+  	plugins: [
+		extractStyles,	
+	],
 };
