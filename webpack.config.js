@@ -11,11 +11,23 @@ module.exports = {
 			{ 	// Install CSS Loaders
 				test: /\.(css|scss)$/,
 				exclude: /node_modules/,
-				loaders: [
-				  'style-loader',
-				  'css-loader',
-				  'sass-loader'
-				]
+				use: [
+                    {
+                        loader: 'style-loader',
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                        }
+                    },
+                    {
+                        loader: 'sass-loader',
+                    },
+                    {
+                        loader: 'postcss-loader'
+                    }
+                ]
 			},
 
 			{ 	// Install URL Loader
@@ -34,28 +46,3 @@ module.exports = {
   }
 
 };
-
-module.exports = {
-    module: {
-        rules: [
-            {
-                test: /\.css$/,
-                exclude: /node_modules/,
-                use: [
-                    {
-                        loader: 'style-loader',
-                    },
-                    {
-                        loader: 'css-loader',
-                        options: {
-                            importLoaders: 1,
-                        }
-                    },
-                    {
-                        loader: 'postcss-loader'
-                    }
-                ]
-            }
-        ]
-    }
-}
