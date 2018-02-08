@@ -9,7 +9,7 @@ module.exports = {
     	rules: [
 
 			{ 	// Install CSS Loaders
-				test: /\.(css|scss)$/,
+				test: /\.(css)$/, // css|scss
 				exclude: /node_modules/,
 				use: [
                     {
